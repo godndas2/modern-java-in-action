@@ -1,5 +1,5 @@
 ## Java 8
-- [Stream API](#Stream API)
+- [Stream API](#stream-api)
 - Method에 code를 전달하는 기법
 - Interface의 Default Method
 
