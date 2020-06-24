@@ -1,4 +1,4 @@
-## Java 8
+## Intro
 - [Stream API](#stream-api)
 - [Method에 code를 전달하는 기법](#behavior-parameterization)
 - Interface의 Default Method
