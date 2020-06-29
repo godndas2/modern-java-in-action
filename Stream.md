@@ -3,7 +3,8 @@
 - Stream을 사용하면 MultiThread를 코드로 구현하지 않아도 데이터를 병렬처리할 수 있다. (Thread와 Lock을 걱정할 필요가 없다)  
 - 가독성  
 - 유연성  
-- 병렬화(성능)
+- 병렬화(성능)  
+- Stream은 정렬된 Collection으로 Stream을 생성하면 정렬이 그대로 유지된다. List로 Stream을 생성하면 Stream은 List의 요소를 유지한다.
 ```
 // 예제를 위한 클래스
 public class Dish {
@@ -18,3 +19,5 @@ public class Dish {
     public enum Type { MEAT, FISH, OTHER }
 }
 ```
+- filter : Lambda를 parameter로 받아 Stream에서 특정 요소를 제외시킨다.  
+- map : 한 요소를 다른 요소로 변환하거나 추출한다.  
