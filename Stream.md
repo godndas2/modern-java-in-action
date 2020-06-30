@@ -21,3 +21,27 @@ public class Dish {
 ```
 - filter : Lambda를 parameter로 받아 Stream에서 특정 요소를 제외시킨다.  
 - map : 한 요소를 다른 요소로 변환하거나 추출한다.  
+> Stream으로 연산을 할 때 실행 과정을 확인해보려면 아래와 같이 시도해보자.
+```
+List<String> names = 
+    menu.stream()
+    .filter(dish -> {
+        System.out.println("filtering : " + dish.getName());
+        return dish.getCalories() > 300;
+    }) // filtering한 요리 이름 출력
+    .map(dish -> {
+        System.out.println("mapping : " + dish.getName());
+        return dish.getName();
+    }) // 추출한 요리 이름 출력
+    .limit(3)
+    .collect(toList());
+System.out.println(names);
+
+/*
+    filtering : pork
+    mapping : pork
+    filtering : beef
+    mapping : beef
+    [pork, beef]
+*/
+```
