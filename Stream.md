@@ -45,3 +45,43 @@ System.out.println(names);
     [pork, beef]
 */
 ```
+## Predicate Filtering
+> filter()는 predicate를 parameter로 받는다.
+```
+// 1
+List<Dish> vegetarianMenu = menu.stream().filter(Dish::isVegetarian).collect(toList());
+
+// 2
+// 처음 등장하는 두 고기 요리를 필터링
+List<Dish> dishes = 
+    menu.stream()
+        .filter(d -> d.getType() == Dish.Type.MEAT)
+        .limit(2)
+        .collect(toList());
+```
+## mapping
+> 각 요리 이름의 길이를 알고 싶다면 어떻게 할까?
+```
+List<Integer> dishNameLengths = 
+        menu.stream()
+            .map(Dish::getName)
+            .map(String::length)
+            .collect(toList());
+```
+> Stream 평면화는 어떻게 할 수 있을까?
+```
+// ["APPLE"]에서 ["A","P","P","L","E"] 를 포함하는 List를 return
+words.stream()
+    .map(word -> word.split(""))
+    .distinct()
+    .collect(toList());
+    // 위 방법은 Stream<String[]> 형태를 return 한다. Stream<String> 형태로 return 하려면 아래와 같다.
+
+List<String> solution =
+    words.stream()
+        .map(word -> word.split("")) // 각 단어를 개별 문자를 포함하는 배열로 변환
+        .flatMap(Arrays::stream) // 생성된 스트림을 하나의 스트림으로 평면화
+        .distinct()
+        .collect(toList());
+```
+> flatMap()은 Stream의 각각의 값을 다른 Stream으로 만든 후 모든 Stream을 하나의 Stream으로 연결한다.
