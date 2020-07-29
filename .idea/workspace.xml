@@ -14,44 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ch08/CacheExample.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="45" column="1" lean-forward="true" selection-start-line="45" selection-start-column="1" selection-end-line="45" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ch08/CreatingCollections.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="139">
-              <caret line="89" column="21" selection-start-line="89" selection-start-column="21" selection-end-line="89" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/modernjavainaction/chap08/WorkingWithCollections.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="111">
-              <caret line="156" column="3" lean-forward="true" selection-start-line="16" selection-start-column="2" selection-end-line="156" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ch08/WorkingWithCollections.java">
+        <entry file="file://$PROJECT_DIR$/src/ch09/ChainOfResponsibilityMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="63" column="29" selection-start-line="63" selection-start-column="29" selection-end-line="63" selection-end-column="29" />
+            <state relative-caret-position="90">
+              <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -130,6 +97,7 @@
         <option value="$PROJECT_DIR$/src/ch08/CacheExample.java" />
         <option value="$PROJECT_DIR$/src/ch08/CreatingCollections.java" />
         <option value="$PROJECT_DIR$/src/ch08/WorkingWithCollections.java" />
+        <option value="$PROJECT_DIR$/src/ch09/ChainOfResponsibilityMain.java" />
       </list>
     </option>
   </component>
@@ -162,7 +130,7 @@
               <item name="modern-java" type="b2602c69:ProjectViewProjectNode" />
               <item name="modern-java" type="462c0819:PsiDirectoryNode" />
               <item name="modernjavainaction" type="462c0819:PsiDirectoryNode" />
-              <item name="chap08" type="462c0819:PsiDirectoryNode" />
+              <item name="chap09" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="modern-java" type="b2602c69:ProjectViewProjectNode" />
@@ -173,7 +141,7 @@
               <item name="modern-java" type="b2602c69:ProjectViewProjectNode" />
               <item name="modern-java" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ch08" type="462c0819:PsiDirectoryNode" />
+              <item name="ch09" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -313,18 +281,18 @@
       <workItem from="1595773911191" duration="126000" />
       <workItem from="1595860316294" duration="894000" />
       <workItem from="1595947178686" duration="339000" />
-      <workItem from="1596033723493" duration="226000" />
+      <workItem from="1596033723493" duration="886000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14506000" />
+    <option name="totallyTimeSpent" value="15166000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21140939" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21140939" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -338,7 +306,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.46391752" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.22827688" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" />
       <window_info anchor="bottom" id="Messages" order="12" />
@@ -355,20 +323,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/modernjavainaction/chap05/Filtering.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="30" selection-start-line="3" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch05/Filtering.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="18" selection-start-line="7" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/modernjavainaction/chap05/Finding.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -748,8 +702,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ch08/WorkingWithCollections.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
+        <state relative-caret-position="-1391">
           <caret line="63" column="29" selection-start-line="63" selection-start-column="29" selection-end-line="63" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modernjavainaction/chap09/ChainOfResponsibilityMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="5" selection-start-line="5" selection-end-line="59" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch09/ChainOfResponsibilityMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="11" column="46" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
