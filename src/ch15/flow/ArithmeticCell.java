@@ -20,7 +20,7 @@ public class ArithmeticCell extends SimpleCell {
         c2.subscribe(c3::setRight);
 
         c1.onNext(10); // C1의 값을 10으로 갱신
-        c2.onNext(20); // C2의 값을 20으로 갱
+        c2.onNext(20); // C2의 값을 20으로 갱신
         c1.onNext(15); // C1의 값을 15로 갱신
     }
 
