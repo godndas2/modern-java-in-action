@@ -55,4 +55,4 @@ public static List<Apple> filterApples(List<Apple> inventory, Predicate<Apple> p
 
 
   
-<i>original https://www.manning.com/books/modern-java-in-action</i>
+<i>original https://www.manning.com/books/modern-java-in-action
